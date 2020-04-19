@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <title>My Landing Page</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+    <h1>My Landing Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, doloribus.</p>
+    <button class="cta-btn" id="open">Sign Up</button>
+  </header>
+
+  <div class="container">
+    <h2>What is this landing page about?</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde autem reprehenderit eos vitae doloribus facere, error tenetur quibusdam inventore sint non ullam incidunt, labore aperiam sit asperiores recusandae sequi impedit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate maiores et dignissimos voluptatem eveniet fugiat facere aut laborum nesciunt.</p>
+    <h2>Tell me more</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis voluptatum possimus iste odit laudantium quisquam ullam beatae distinctio minima, minus, et sint asperiores vel. Labore expedita, sapiente placeat at repellat mollitia quibusdam, odio neque suscipit ipsam, distinctio minima facere?</p>
+    <h2>Benefits</h2>
+    <ul>
+      <li>Lifetime Access</li>
+      <li>30 day money back</li>
+      <li>Tailored customer support</li>
+    </ul>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers, support and more</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter name" class="form-input">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email" class="form-input">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" class="form-input">
+          </div>
+          <div>
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Re-enter password" class="form-input">
+          </div>
+          <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
